@@ -33,7 +33,7 @@ $(document).ready(function () {
         $('.ct#' + page).addClass('active');
     });
 
-    $('.nav .openThis, .nav .closeThis').click(function () {
+    $('.nav .openThis, .nav .closeThis, .content .overlay').click(function () {
         $('.nav').toggleClass('opened');
     });
 
